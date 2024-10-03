@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        .pricing-table {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; 
+            padding: 20px;
+        }
+
+        .pricing-plan {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 300px; 
+        }
+
+        .pricing-plan h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .pricing-plan .price {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .pricing-plan ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        .pricing-plan ul li {
+            margin: 5px 0;
+        }
+
+        .pricing-plan button {
+            background-color: green;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-table">
+        <div class="pricing-plan premium">
+            <h2>PREMIUM</h2>
+            <div class="price">$399<span>/month</span></div>
+            <p>That's only 13.905$ per meal</p>
+            <ul>
+                <li>1 meal everyday</li>
+                <li>Order 24*7</li>
+                <li>Access to newest creations</li>
+                <li>Free delivery</li>
+            </ul>
+            <button>Sign-up</button>
+        </div>
+        <div class="pricing-plan pro">
+            <h2>PRO</h2>
+            <div class="price">$199<span>/month</span></div>
+            <p>That's only 10.905$ per meal</p>
+            <ul>
+                <li>1 meal in 10 days</li>
+                <li>Order 24*7</li>
+                <li>Access to newest creations</li>
+                <li>Free delivery</li>
+            </ul>
+            <button>Sign-up</button>
+        </div>
+        <div class="pricing-plan starter">
+            <h2>STARTER</h2>
+            <div class="price">$19<span>/meal</span></div>
+            <ul>
+                <li>1 meal a month</li>
+                <li>Order 24*7</li>
+                <li>× Access to newest creations</li>
+                <li>Free delivery</li>
+            </ul>
+            <button>Sign-up</button>
+        </div>
+    </div>
+</body>
+</html>
